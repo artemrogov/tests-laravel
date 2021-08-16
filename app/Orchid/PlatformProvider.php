@@ -29,10 +29,10 @@ class PlatformProvider extends OrchidServiceProvider
             Menu::make('Примеры экранов')
                 ->icon('monitor')
                 ->route('platform.example')
-                ->title('Навигация')
-                ->badge(function () {
+                ->title('Навигация'),
+                /*->badge(function () {
                     return 6;
-                }),
+                }),*/
 
             Menu::make('Выпадающее меню')
                 ->icon('code')
